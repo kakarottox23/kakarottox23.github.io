@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>LWD - Register</title>
+		<link href="images/logo-lwd.png"  rel="icon">
+		<link href="https://fonts.googleapis.com/css?family=Titillium+Web:200,300,400,600,700" rel="stylesheet">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/main.css">
+
+	</head>
+
+	<body>
+
+		<!-- Header -->
+
+		<header id="navbar">
+			<div class="container clearfix" >
+				<h1 class="logo">Learning Web Design</h1>
+
+				<h3 class="dateline">June 1 &ndash; July 20, 2019</h3>
+
+				<nav class="primary-nav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="participants.html">Participants</a></li>
+						<li><a href="outline.html">Outline</a></li>
+						<li><a href="venue.html">Venue</a></li>
+						<li><a href="register.html">Register</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+
+		<!-- Hero -->
+		<section id="hero" class="leads">
+			<div class="container">
+				<h2>Register</h2>
+				<p>Register for our next class.</p>
+			</div>
+		</section>
+
+		<!-- Content -->
+
+		<section class="row">
+			<div class="grid clearfix">
+				<section class="col-2-5">
+					<h3>Available Schedule</h3>
+					<p>August 3 &ndash; Setember 14, 2019<br>
+					Saturday<br>
+					9:00AM-4:00PM</p>
+					<p>October 5 &ndash; November 23, 2019<br>
+					Saturday<br>
+					9:00AM-4:00PM</p>
+					<p>December 7, 2019 &ndash; January 25, 2020<br>
+					Saturday<br>
+					9:00AM-4:00PM</p>
+				</section>
+
+				<section class="col-3-5">
+					<!-- Form -->
+					<form name="register" id="register" action="#" method="get">
+						<fieldset>
+							<label for="fullname">Full Name</label>
+							<input type="text" placeholder="Full Name" name="fullname" id="fullname" required >
+							<label for="email">Email</label>
+							<input type="email" placeholder="Email Address" name="email" id="email" >
+							<label for="phone">Phone</label>
+							<input type="number" placeholder="Phone Number" name="phone" id="phone"  >
+						</fieldset>
+						<fieldset>
+							<label for="gender">Gender</label>
+							<input type="radio" name="gender" id="gender" value="M"> Male &nbsp;
+							<input type="radio" name="gender" id="gender" value="F"> Female &nbsp;
+							<input type="radio" name="gender" id="gender" value="X" checked> Unknown &nbsp;
+						</fieldset>
+						<fieldset>
+							<label for="status">Civil Status</label>
+							<input type="radio" name="status" value="S" checked> Single &nbsp;
+							<input type="radio" name="status" value="M" > Married &nbsp;
+						</fieldset>
+						<fieldset>
+							<label for="how">How did you know about MFI</label>
+							<input type="checkbox" name="how1" value="newspaper" checked> Newspaper &nbsp;<br>
+							<input type="checkbox" name="how2" value="website"> Website &nbsp;<br>
+							<input type="checkbox" name="how3" value="friend"> Friend &nbsp;<br>
+						</fieldset>
+						<fieldset>
+							<label for="sched">Select schedule</label>
+							<select name="sched" id="sched" required >
+								<option value="0" selected>Select</option>
+								<option value="sched1">August 3 &ndash; Setember 14, 2019</option>
+								<option value="sched2">October 5 &ndash; November 23, 2019</option>
+								<option value="sched3">December 7, 2019 &ndash; January 25, 2020</option>
+							</select>
+						</fieldset>
+						<fieldset>
+							<label for="comments">Comments</label>
+							<textarea name="comments" rows="6" placeholder="Your message..."></textarea>
+						</fieldset>
+						<input type="submit" value="SEND" >
+					</form>
+
+				</section>
+			</div>
+
+		</section>
+
+
+		<!-- Footer -->
+
+		<footer>
+			<div class="container clearfix">
+				<small>&copy; Learning Web Design by <a href="mailto:kakarottoX23@gmail.com">Kakarottox</a></small>
+				<nav class="footer-nav">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="participants.html">Participants</a></li>
+						<li><a href="outline.html">Outline</a></li>
+						<li><a href="venue.html">Venue</a></li>
+						<li><a href="register.html">Register</a></li>
+					</ul>
+				</nav>
+			</div>
+		</footer>
+
+
+	</body>
+</html>
